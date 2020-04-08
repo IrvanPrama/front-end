@@ -1,0 +1,318 @@
+@font-face{
+  font-family: futura;
+  src: url(../font/FutuLt.ttf);
+}
+body{
+  background-color: rgba(211, 211, 211, 0.253);
+}
+/* Navbar */
+.navbar-brand{
+  font-family: 'Viga';
+  font-size: 35px;
+}
+.mn-font{
+  font-size: 25px;
+}
+.white-shadow{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  color: white !important;
+}
+.nav-link{
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+.nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom: 3px solid #0b63bc;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+
+}
+
+
+/* Fix Navigation */
+.fix-navi{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background:white;
+}
+
+.animate{
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.7s;
+	animation-name: animatetop;
+	animation-duration: 0.7s;
+}
+@-webkit-keyframes animatetop{
+	from{top:-300px; opacity: 0;}
+	to{top: 0; opacity: 1;}
+}
+@keyframes animatetop{
+	from{top:-300px; opacity: 0;}
+	to{top: 0; opacity: 1;}
+}
+
+
+
+/* Utility */
+.text-mid{
+  padding: 60px 50px;
+}
+.tombol{
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.menus{
+  font-size: 22px;
+  z-index: 99;
+  width: 100%;
+}
+.absolut{
+  position: absolute;
+}
+.mid-img{
+  width: 350px;
+  height: 300px;;
+}
+.img-cover{
+  background-size: cover;
+}
+.box-shadow{
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.inner-content{
+  margin: 10px;
+  padding: 10px 50px;
+}
+.img-margin{
+  margin: 10px;
+}
+.margin-bottom{
+  height: 20px;
+}
+.space-top{
+  margin: 1000px 0;
+}
+
+.conten-center{
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+.carousel-item{
+  height: max-content;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  #section2 {
+    margin: 10px 0;
+    height: 600px;
+  }
+
+/* mouse icon */
+.small-img{
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+  top: 0;
+}
+
+.small-img:hover{
+    top: 10px;
+    position: relative;
+}
+
+
+/* Jumbotron */
+.size-cover{
+  height: 100vh;
+}
+.silver-bg{
+  margin: 5px 0;
+  background-color: white;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  height: 500px;
+}
+
+.description{
+  height: 300px;
+}
+
+
+
+.small-width{
+  width: 34%;
+  margin: 0 5px;
+  text-align: center;
+}
+
+/* MODALS */
+.modal-dialog{
+  margin: 7.75rem auto;
+}
+
+/* KEGIATAN */
+.kegiatan{
+  margin-top: 100px;  
+}
+.img-fluid{
+  border-radius: 18px;
+}
+
+.kegiatan h3{
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.kegiatan h3 span{
+  font-weight: 500;
+}
+.kegiatan p{
+  font-size: 18px;
+  font-weight: 200;
+  margin: 30px 0;
+}
+.margin-top{
+  margin-top: 100px;  
+}
+/* CAROSEL */
+.carousel-mini{
+  height: 415px;
+}
+.carousel-item{
+  height: unset;
+}
+.text-a-right{
+  text-align: right;
+}
+.carousel-caption{
+  bottom: 60px;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 10px;
+  height: 200px;
+  background-color: #F5F5F5;
+}
+
+.footer-img-box{
+  margin: 0 auto;
+  width: 284px;
+  height: 199px;
+}
+
+.footer-img-box img{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footer-title{
+  font-family: righteous;
+  font-size: 29px;
+  text-align: center;
+  color: #707070;
+  margin-top: 75px;
+}
+
+.footer-subtitle{
+  font-family: futura;
+  font-size: 15px;
+  text-align: center;
+  color: #707070;
+  padding: 0 45px; 
+}
+
+.social-media-icon{
+  width: 25px;
+  height: 25px;
+  margin: 40px 10px 0;
+}
+
+.social-media-icon a svg{
+  color: #707070;
+}
+
+.footer-year{
+  font-family: futura;
+  font-size: 12px;
+  color: #6E6E6E;
+  text-align: center;
+  line-height: 15px;
+  margin-top: 70px;
+}
+
+/* FORM */
+.form-check {
+  padding-left: 2.25rem;
+  float: left;
+}
+
+.text-field{
+  height: 100px;
+}
+
+/* PERUNTUKAN */
+.peruntukan{
+margin-top: 5px; height: 120px;
+}
+
+.tinggi{
+  height: 500px;
+}
+
+.title h1{
+font-size: 38px;
+font-weight: 200;
+}
+.title h1 span{
+  font-weight: 500;
+}
+
+/* DONASI */
+.bar-donasi{
+  height: 600px;
+}
+.donasi{
+  margin-top: 10px !important;  
+  text-transform: uppercase;
+}
+
+.donasi h3{
+  margin-top: 20px;
+  font-size: 42px;
+  font-weight: 200;
+}
+.donasi h3 span{
+  font-weight: 500;
+}
+
+.donasi p{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+/* GALERI */
+.galeri{
+  width: 300px;
+  height: 300px;
+  margin-top: 200px;
+  margin: 10px;
+}
+
+.d-flex-warp{
+  flex-wrap: nowrap;
+}
